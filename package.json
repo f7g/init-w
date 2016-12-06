@@ -1,0 +1,27 @@
+{
+  "name": "init-w",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f7g/init-w.git"
+  },
+  "keywords": [
+    "gulp-sass",
+    "browser-sync"
+  ],
+  "author": "f g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f7g/init-w/issues"
+  },
+  "homepage": "https://github.com/f7g/init-w#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
