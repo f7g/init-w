@@ -1,0 +1,38 @@
+/* Grid
+-------------------------------------
+*/
+
+.grid {
+  overflow: hidden;
+  // max-width: 1280px;
+  // margin: 0 auto;
+}
+
+.unit {
+  float: left;
+  // border: 1px solid lightgrey
+}
+
+.gutter {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.unit-s-1 {
+  width: 100%;
+}
+
+.unit-s-2 {
+  width: 50%;
+}
+
+@media only screen and (min-width: 30em) {
+  .unit-m-1-2 {width: 50%;}
+  .unit-m-1 {width: 100%;}
+}
+
+@media only screen and (min-width: 50em) {
+  .unit-l-1-3 {width: 33.333%;}
+  .unit-l-2-3 {width: 66.666%;}
+  .unit-l-1 {width: 100%;}
+}
